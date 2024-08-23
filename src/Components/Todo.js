@@ -41,7 +41,7 @@ const Todo = () =>{
             type='text'
             className="w-50 p-2 rounded-4 fw-bold fs-3"
             placeholder="Enter Your Todo Data"
-            value={input}
+            value={input} 
             onChange={(e)=>setInput(e.target.value)}
             />
             <br/>
